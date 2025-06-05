@@ -16,4 +16,8 @@ if exist "C:\Users\%username%\AppData\Local\Temp" (
 	rmdir "C:\Users\%username%\AppData\Local\Temp" /s /q
 )
 
+if exist "C:\XboxGames" (
+	rmdir "C:\XboxGames" /s /q
+)
+
 pause
